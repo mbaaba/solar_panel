@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7193142b-40c7-4cf5-84a1-5787f4ec335b" name="M0_LoRa_Sender" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="/Volumes/M0_LORA" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
