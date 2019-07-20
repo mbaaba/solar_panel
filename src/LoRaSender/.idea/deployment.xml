@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="M0_LoRa_Sender">
+  <component name="PublishConfigData" autoUpload="Always" serverName="M4_LoRa_Sender">
     <serverData>
-      <paths name="M0_LoRa_Sender">
+      <paths name="M4_LoRa_Sender">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$/../LoRaSender" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
