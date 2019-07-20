@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="M0_LoRa_R">
+  <component name="PublishConfigData" autoUpload="Always" serverName="M4_SP_HUB">
     <serverData>
-      <paths name="M0_LoRa_R">
+      <paths name="M4_SP_HUB">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

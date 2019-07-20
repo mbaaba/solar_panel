@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="3235719d-3ad2-44ff-a0fc-018b58a4605f" name="M0_LoRa_R" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="/Volumes/M0_LORA_R" accessType="MOUNT" />
+      <webServer id="3235719d-3ad2-44ff-a0fc-018b58a4605f" name="M4_SP_HUB" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="/Volumes/SP_HUB" accessType="MOUNT" />
       </webServer>
     </option>
   </component>

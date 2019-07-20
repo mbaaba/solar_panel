@@ -10,9 +10,6 @@ spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
 cs = digitalio.DigitalInOut(board.D5)
 reset = digitalio.DigitalInOut(board.D6)
 
-# cs = digitalio.DigitalInOut(board.RFM9X_CS)
-# reset = digitalio.DigitalInOut(board.RFM9X_RST)
-
 
 import adafruit_rfm9x
 rfm9x = adafruit_rfm9x.RFM9x(spi, cs, reset, 868.0)
