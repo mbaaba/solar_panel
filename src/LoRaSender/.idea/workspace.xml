@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4d346f4-3da6-4397-b08b-6d50f777b7b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LoRaReceiver/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoRaReceiver/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaReceiver/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoRaReceiver/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaReceiver/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../solar_monitor/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LoRaReceiver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaReceiver/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LoRaReceiver/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaReceiver/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solar_monitor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../solar_monitor/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,12 +113,12 @@
       <workItem from="1563121938945" duration="14000" />
       <workItem from="1563121974170" duration="48000" />
       <workItem from="1563122463583" duration="881000" />
-      <workItem from="1563541976503" duration="7257000" />
+      <workItem from="1563541976503" duration="7585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10130000" />
+    <option name="totallyTimeSpent" value="10458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="24" width="1611" height="1024" extended-state="0" />
