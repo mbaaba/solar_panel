@@ -42,18 +42,23 @@ def receive_message(radio, led):
         packet_text = str(packet, 'ascii').split('#')
         rssi_text = rfm9x.rssi
 
-        msg_str = 'Round: {0}'.format(packet_text[0])
-        bat_str = 'Volatge: {0}'.format(packet_text[1])
-
-        rssi_str = 'RSSI: {} dB'.format(rssi_text)
+        msg_label = 'Round: '
+        bat_label = 'Voltage: '
+        rssi_label = 'RSSI: '
+        msg_str = '{0}'.format(packet_text[0])
+        bat_str = '{0}'.format(packet_text[1])
+        rssi_str = '{0} dB'.format(rssi_text)
         print(msg_str)
         print(rssi_str)
 
         message = 'round {}'.format(num)
         oled.fill(0)
-        oled.text(msg_str, 0, 0, 1)
-        oled.text(bat_str, 0, 10, 1)
-        oled.text(rssi_str, 0, 25, 1)
+        oled.text(msg_label, 0, 0, 1)
+        oled.text(msg_str, 60, 0, 1)
+        oled.text(bat_label, 0, 10, 1)
+        oled.text(bat_str, 60, 10, 1)
+        oled.text(rssi_label, 0, 25, 1)
+        oled.text(rssi_str, 60, 25, 1)
         oled.show()
 
     return packet
