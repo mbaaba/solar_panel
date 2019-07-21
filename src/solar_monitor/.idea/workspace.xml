@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30d14a0d-6667-495a-9ef5-2a45b040b653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LoRaReceiver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaReceiver/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LoRaReceiver/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaReceiver/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LoRaSender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaSender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoRaSender/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LoRaSender/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,12 +138,12 @@
       <workItem from="1562774836204" duration="3660000" />
       <workItem from="1563028778027" duration="894000" />
       <workItem from="1563096259120" duration="11000" />
-      <workItem from="1563710937536" duration="665000" />
+      <workItem from="1563710937536" duration="780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5230000" />
+    <option name="totallyTimeSpent" value="5345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

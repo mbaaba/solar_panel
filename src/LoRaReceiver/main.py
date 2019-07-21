@@ -39,10 +39,12 @@ def init_radio():
 def receive_message(radio, led):
     packet = radio.receive(5.0)  # Wait for a packet to be received (up to 5 seconds)
     if packet is not None:
-        packet_text = str(packet, 'ascii')
+        packet_text = str(packet, 'ascii').split('#')
         rssi_text = rfm9x.rssi
 
-        msg_str = '{0}'.format(packet_text)
+        msg_str = 'Round: {0}'.format(packet_text[0])
+        bat_str = 'Volatge: {0}'.format(packet_text[1])
+
         rssi_str = 'RSSI: {} dB'.format(rssi_text)
         print(msg_str)
         print(rssi_str)
@@ -50,7 +52,8 @@ def receive_message(radio, led):
         message = 'round {}'.format(num)
         oled.fill(0)
         oled.text(msg_str, 0, 0, 1)
-        oled.text(rssi_str, 0, 10, 1)
+        oled.text(bat_str, 0, 10, 1)
+        oled.text(rssi_str, 0, 25, 1)
         oled.show()
 
     return packet
