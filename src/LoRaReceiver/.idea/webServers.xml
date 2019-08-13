@@ -2,8 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="3235719d-3ad2-44ff-a0fc-018b58a4605f" name="M4_SP_HUB" url="http://localhost">
+      <webServer id="3235719d-3ad2-44ff-a0fc-018b58a4605f" name="MOZART:M4_SP_HUB" url="http://localhost">
         <fileTransfer port="0" mountedRoot="/Volumes/SP_HUB" accessType="MOUNT" />
+      </webServer>
+      <webServer id="02f88e6d-fae7-46ab-a39e-63a1d6e8c3b9" name="BACH:M4_SP_HUB" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="/media/framlin/SP_HUB" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
